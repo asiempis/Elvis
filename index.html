@@ -4,16 +4,50 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Cursor has left the building</title>
+		<title>Elvis has left the building</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			Cursor has left the building
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/javascript" src="js/jquery.idle.js"></script>
-			<script type="text/javascript" src="js/elvis.js"></script>
-			
-		</div><!-- /container -->
+		<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
+		<div class="md-modal md-effect-3" id="modal-3">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
 		
+		<div class="container">
+			<!-- Top Navigation -->
+			<header>
+				<h1>Elvis.js <span>has left the building</span></h1>
+			</header>
+			<div class="main clearfix">
+				<div class="column">
+					<p>All right, all right, Elvis has left the building. I've told you absolutely straight up to this point. You know that. He has left the building. He left the stage and went out the back with the policeman and he is now gone from the building.</p>
+				</div>
+				<div class="column">
+					<img src="http://www.clker.com/cliparts/t/B/b/0/K/o/elvis-presley-hi.png" alt="Elvis has left the building" width="300"/>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<div class="md-overlay"></div><!-- the overlay element -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.idle.js"></script>
+		<script type="text/javascript" src="js/elvis.js"></script>
 	</body>
 </html>
