@@ -1,7 +1,7 @@
 /*Track Time On Site*/
 var checkTimeCook = $.cookie('trackTimeOnSite');
 if (!checkTimeCook){
-	var startTime = new Date();        //Start the clock for first visit on Pennie.gr
+	var startTime = new Date();        //Start the clock for first visit 
 	window.onbeforeunload = function() //When the user leaves the page(closes the window/tab, clicks a link)...
 	{
 	    var endTime = new Date();        //Get the current time
@@ -13,7 +13,7 @@ if (!checkTimeCook){
 		var spentOnPage = $.cookie('trackTimeOnSite');
 		spentOnPage = eval(spentOnPage);
 		var counting = spentOnPage+5000;
-		if (counting>=20000){   //If time on site is more than 180000 miliseconds aka 2:20 minutes
+		if (counting>=20000){   //If time on site is more than 20000 miliseconds aka 20 seconds
 			var pageviews = $.cookie('trackPageViews');
 			pageviews = eval(pageviews);  
 			if (pageviews==2){ // If user has more than 2 pageviews
@@ -112,7 +112,8 @@ function postContactToGoogle(){
     }
     if (answer !== "") {
         $.ajax({
-            data: {"entry.215041315" : answer, "entry.215041315.other_option_response" : otherAnswer},// data: {"entry.215041315" : answer, "entry.3" : email, "entry.4": feed},
+            url: "https://docs.google.com/forms/d/<form-id>/formResponse",
+            data: {"entry.1" : answer, "entry.2.other_option_response" : otherAnswer},// data: {"entry.1" : answer, "entry.3" : answer2, "entry.4": answer3},
             type: "POST",
             dataType: "xml",
             statusCode: {
