@@ -1,18 +1,18 @@
 /**/
 /* defaults */
 /**/
-.gelvis-form {
+.modal-gelvisform, .modal-elvischimp{
 	  padding: 0 30px 5px;
 }
-.gelvis-form ul{
+.modal-gelvisform ul, .modal-elvischimp ul{
 	list-style: none;
 }
 
-.gelvis-form .ss-q-title{
+.modal-gelvisform .ss-q-title{
 	font-size: 2em;
   	margin-bottom: 0.5em;
 }
 
-.gelvis-form  button {
+.modal-gelvisform  button, .modal-elvischimp button {
     display: inline-block;
 }
