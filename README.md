@@ -89,6 +89,30 @@ This plugin is a combination of:
 - [Codrops ModalWindowEffects](https://github.com/codrops/ModalWindowEffects)
 - Pure JavaScript
 
+##DEMO
+[www.honestdigitalagency.com](https://www.honestdigitalagency.com)
+
+Settings:
+
+
+pageviews: 1,
+
+timeonsite: 8999,
+
+cookiename: "mailchimpForm",
+
+cookieexpire: 1,
+
+modalID:"modal-elvischimp",
+
+modalEffect: 7,
+
+modalType:"chimpform",
+
+mailchimpListUrl: "MAILCHIMP FORM POST URL"
+
+
+
 ##Changelog
 
 ###0.5.0
