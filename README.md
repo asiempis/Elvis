@@ -90,7 +90,7 @@ This plugin is a combination of:
 - Pure JavaScript
 
 ##DEMO
-[www.honestdigitalagency.com](https://www.honestdigitalagency.com)
+[www.honestdigitalagency.com](http://www.honestdigitalagency.com)
 
 Settings:
 
