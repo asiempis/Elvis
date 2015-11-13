@@ -25,7 +25,7 @@ $(this).elvis({
 	 /*Google Form Modal Required Settings
 	 googleFormActionUrl: "GOOGLE FORM POST URL",
 	 /* e.g. googleFormActionUrl: "https://docs.google.com/forms/d/asdasdasdasdasdasd21asdasda4sd5asd1a/formResponse",*/
-     googleFormAnswerName: "elvisSong2",
+    /* googleFormAnswerName: "elvisSong2",
 });
 */
 /*Mailchimp Form Modal Init*/
