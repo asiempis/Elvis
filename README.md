@@ -1,6 +1,6 @@
 #Elvis (has left the building)
 
-Detect Exit Intent of a user. 
+Detect Exit-Intent of a user. 
 
 Detect if user leaves your website and notify her/him with a Simple Modal, a Google Form Survey or a Mailchimp Sign Up Form.
 
@@ -38,13 +38,13 @@ Simple Modal
 ```
 /* Simple Modal Init*/
 $(this).elvis({
-	pageviews: 1, //positive integer
+  pageviews: 1, //positive integer
   timeonsite: 0,//in miliseconds
   cookiename: "simpleModal",
   cookieexpire: 2, //in days
   modalType:"simpleModal",
   modalID:"modal-elvis",
-	modalEffect: 4,
+  modalEffect: 4,
 });
 ```
 Google Form Modal
@@ -53,16 +53,16 @@ Google Form Modal
 /*Google Form Modal Init*/
 
 $(this).elvis({
-	pageviews: 1,//positive integer
-  imeonsite: 1,//in miliseconds
+  pageviews: 1,//positive integer
+  timeonsite: 1,//in miliseconds
   cookiename: "googleForm",
-	cookieexpire: 1, //in days
-	modalType:"gform",
-	modalID:"modal-gelvisform",
-	modalEffect: 2,
-	/*Google Form Modal Required Settings
-	googleFormActionUrl: "GOOGLE FORM POST URL",
-	/* e.g. googleFormActionUrl: "https://docs.google.com/forms/d/asdasdasdasdasdasd21asdasda4sd5asd1a/formResponse",*/
+  cookieexpire: 1, //in days
+  modalType:"gform",
+  modalID:"modal-gelvisform",
+  modalEffect: 2,
+  /*Google Form Modal Required Settings
+  googleFormActionUrl: "GOOGLE FORM POST URL",
+  /* e.g. googleFormActionUrl: "https://docs.google.com/forms/d/asdasdasdasdasdasd21asdasda4sd5asd1a/formResponse",*/
   googleFormAnswerName: "elvisSong2",
 });
 ```
@@ -73,11 +73,11 @@ $(this).elvis({
   pageviews: 1,//positive integer
   timeonsite: 0,//in miliseconds
   cookiename: "mailchimpForm",
-	cookieexpire: 1, //in days
-	modalID:"modal-elvischimp",
-	modalEffect: 15,
-	modalType:"chimpform",
-	/*Mailchimp Subscription Form Required Settings*/
+  cookieexpire: 1, //in days
+  modalID:"modal-elvischimp",
+  modalEffect: 15,
+  modalType:"chimpform",
+  /*Mailchimp Subscription Form Required Settings*/
   mailchimpListUrl: "MAILCHIMP FORM POST URL WITHOUT HTTP OR HTTPS. ADD &c=? AT THE END"
   /*e.g. mailchimpListUrl: "//MAILCHIMPLIST.us10.list-manage.com/subscribe/post-json?u=daa501223545be03a469a8f78&amp;id=c15s4da4c&c=?"*/
 });       
@@ -90,7 +90,7 @@ This plugin is a combination of:
 - Pure JavaScript
 
 ##DEMO
-[www.honestdigitalagency.com](http://www.honestdigitalagency.com)
+[http://humble.gr/%CF%84%CE%B9-%CE%B5%CE%B9%CE%BD%CE%B1%CE%B9-%CF%80%CE%B1%CE%BB%CE%B9-%CF%84%CE%BF%CF%85%CF%84%CE%BF/](http://www.humble.gr)
 
 Settings:
 
